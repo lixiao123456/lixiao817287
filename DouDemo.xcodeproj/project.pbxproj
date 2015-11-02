@@ -14,6 +14,11 @@
 		18A8C13E1BB24EC700032A94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A8C13D1BB24EC700032A94 /* Images.xcassets */; };
 		18A8C1411BB24EC700032A94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A8C13F1BB24EC700032A94 /* LaunchScreen.xib */; };
 		18A8C14D1BB24EC700032A94 /* DouDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8C14C1BB24EC700032A94 /* DouDemoTests.m */; };
+		18A8C1581BB2505D00032A94 /* InformationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8C1571BB2505D00032A94 /* InformationTableViewCell.m */; };
+		18A8C15A1BB2512F00032A94 /* information_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A8C1591BB2512F00032A94 /* information_back@2x.png */; };
+		18A8C1701BB2843100032A94 /* InsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8C16F1BB2843100032A94 /* InsetsLabel.m */; };
+		18B6E0311BDDD22600E3C3A2 /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6E0301BDDD22600E3C3A2 /* AutoScrollLabel.m */; };
+		18B6E0341BDDDC8600E3C3A2 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6E0331BDDDC8600E3C3A2 /* MarqueeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,15 @@
 		18A8C1461BB24EC700032A94 /* DouDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A8C14B1BB24EC700032A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A8C14C1BB24EC700032A94 /* DouDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouDemoTests.m; sourceTree = "<group>"; };
+		18A8C1561BB2505D00032A94 /* InformationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationTableViewCell.h; sourceTree = "<group>"; };
+		18A8C1571BB2505D00032A94 /* InformationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationTableViewCell.m; sourceTree = "<group>"; };
+		18A8C1591BB2512F00032A94 /* information_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information_back@2x.png"; sourceTree = "<group>"; };
+		18A8C16E1BB2843100032A94 /* InsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetsLabel.h; sourceTree = "<group>"; };
+		18A8C16F1BB2843100032A94 /* InsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetsLabel.m; sourceTree = "<group>"; };
+		18B6E02F1BDDD22600E3C3A2 /* AutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollLabel.h; sourceTree = "<group>"; };
+		18B6E0301BDDD22600E3C3A2 /* AutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollLabel.m; sourceTree = "<group>"; };
+		18B6E0321BDDDC8600E3C3A2 /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
+		18B6E0331BDDDC8600E3C3A2 /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,15 @@
 				18A8C1351BB24EC600032A94 /* AppDelegate.m */,
 				18A8C1371BB24EC600032A94 /* ViewController.h */,
 				18A8C1381BB24EC600032A94 /* ViewController.m */,
+				18A8C1561BB2505D00032A94 /* InformationTableViewCell.h */,
+				18A8C1571BB2505D00032A94 /* InformationTableViewCell.m */,
+				18A8C16E1BB2843100032A94 /* InsetsLabel.h */,
+				18A8C16F1BB2843100032A94 /* InsetsLabel.m */,
+				18B6E02F1BDDD22600E3C3A2 /* AutoScrollLabel.h */,
+				18B6E0301BDDD22600E3C3A2 /* AutoScrollLabel.m */,
+				18B6E0321BDDDC8600E3C3A2 /* MarqueeLabel.h */,
+				18B6E0331BDDDC8600E3C3A2 /* MarqueeLabel.m */,
+				18A8C1591BB2512F00032A94 /* information_back@2x.png */,
 				18A8C13A1BB24EC600032A94 /* Main.storyboard */,
 				18A8C13D1BB24EC700032A94 /* Images.xcassets */,
 				18A8C13F1BB24EC700032A94 /* LaunchScreen.xib */,
@@ -200,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A8C13C1BB24EC600032A94 /* Main.storyboard in Resources */,
+				18A8C15A1BB2512F00032A94 /* information_back@2x.png in Resources */,
 				18A8C1411BB24EC700032A94 /* LaunchScreen.xib in Resources */,
 				18A8C13E1BB24EC700032A94 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +243,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A8C1701BB2843100032A94 /* InsetsLabel.m in Sources */,
 				18A8C1391BB24EC600032A94 /* ViewController.m in Sources */,
 				18A8C1361BB24EC600032A94 /* AppDelegate.m in Sources */,
+				18B6E0341BDDDC8600E3C3A2 /* MarqueeLabel.m in Sources */,
+				18A8C1581BB2505D00032A94 /* InformationTableViewCell.m in Sources */,
+				18B6E0311BDDD22600E3C3A2 /* AutoScrollLabel.m in Sources */,
 				18A8C1331BB24EC600032A94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +444,7 @@
 				18A8C1521BB24EC700032A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A8C1531BB24EC700032A94 /* Build configuration list for PBXNativeTarget "DouDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +453,7 @@
 				18A8C1551BB24EC700032A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
